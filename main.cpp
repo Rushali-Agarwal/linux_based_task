@@ -6,6 +6,17 @@
 #include <string>
 #include <bits/stdc++.h>  // For various C++ utilities
 
+// Function prototypes
+void showHelp();
+void showVersion();
+void listServices();
+void systemLoad();
+void startService(const std::string &serviceName);
+void stopService(const std::string &serviceName);
+void checkDiskUsage();
+void monitorProcesses();
+void analyzeLogs();
+void backupFiles(const std::string &path);
 
 // Main function to take input from the user and execute commands interactively
 int main() {
